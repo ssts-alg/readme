@@ -13,4 +13,5 @@ Directly modify /etc/init.d/jenkins
   daemon --user root --pidfile "$JENKINS_PID_FILE" $JAVA_CMD $PARAMS > /dev/null
 Then, of course, you must run:
 
-#### service jenkins restart
+#### Restart Jenkins
+```service jenkins restart```
